@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	
+	/* In questo modo il sito è full screen */
+	margin: 0;
+	
+	background-color: #eeeeee;
+	
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+blockquote {
+	background: url("images/quotes.png") no-repeat scroll 10px 5px transparent;
+	background-color: #e5e5e5;
+	padding: 10px 70px;
+	min-height: 40px;
+	font-style: italic;
+	border: 1px solid #dbdbdb;
+	
+	/* Per evitare di sfasare il sito */
+	
+	max-width: 640px;
+}
+
+blockquote:before, blockquote:after {
+	content: '"';
+	font-style: italic;
+}
+
+table {
+	
+	margin: auto;
+	border-spacing: 0;
+	width: 960px;
+	margin-top: -30px;
+}
+
+td {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	width: 640px;
+	position: relative;
+}
+
+img {
+	/* Serve a rimuovere il bordo sott'immagine */
+	display: block;
+	
+	margin-top: 20px;
+}
+
+
+div {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+.desc { 
+	background-color: #fff;
+	border-bottom: 1px solid #dedede;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+}
+
+#topbar {
+	/* Classe per la barra nera superiore */
+	
+	background-color: #222222;
+	height: 40px;
+	width: 100%;
+	
+	/* 
+	* Posiziona la barra sempre in alto 
+	* e in caso di scroll sempre in primo piano 
+	*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.details { 
+	/* Classe per impostare il padding nelle celle */
+	padding: 10px;
+	
+	color: #000;
+	font-size: 11pt;
+}
+
+h1 {
+	color: #61605e;
+	font-size: 20pt;
+}
+
+small {
+	color: #61605e;
+}
+
+hr {
+	background-color: #e8e8e8;
+	height: 1px;
+	border: none;
+}
+
+.preview {
+	color: #61605e;
+	font-size: 10pt;
+}
+
+.links {
+	width: 960px;
+	margin: auto;
+	color: #fff;
+	font-size: 17pt;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+.table-credit {
+	padding: 10px;
+	background-color: #fff;
+	border-spacing: 10px;
+	border: 1px solid #dedede;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.hr-2 {
+	width: 100%;
+}
+
+.img-post {
+	/* classe per le immagini nei post */
+	padding: 5px;
+	border: 1px solid #dedede;
+	margin: 10px;
+}
+
+.img-post:hover {
+	border: 1px solid #5b5b5b;
+}
