@@ -1,6 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*
+*
+* Copyright 2014, All Rights Reserved
+* Barbiero Leonardo <leonardo.barbiero@gmail.com> 
+*
+* Il contenuto del seguente file è protetto dal diritto d'autore 
+* ed ne è vietata la copia senza l'autorizzazione da parte del proprietario
+*
+*/
+
 a {
 	text-decoration: none;
 	color: inherit;
@@ -97,6 +107,7 @@ div {
 }
 
 h1 {
+	/* Stile per il titolo nella pagina principale e nei post */
 	color: #61605e;
 	font-size: 20pt;
 }
@@ -112,6 +123,7 @@ hr {
 }
 
 .preview {
+	/* Classe per la preview nei sott'immagine */
 	color: #61605e;
 	font-size: 10pt;
 }
@@ -126,6 +138,7 @@ hr {
 }
 
 .table-credit {
+	/* tabella sotto */
 	padding: 10px;
 	background-color: #fff;
 	border-spacing: 10px;
@@ -135,6 +148,7 @@ hr {
 }
 
 .hr-2 {
+	/*linea per la tabella sotto */
 	width: 100%;
 }
 
