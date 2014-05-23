@@ -3,5 +3,5 @@
 
 This is a simple Web Site in XTML 1.0 Transitional and CSS3.
 
-*Last version will be uploaded Thursday 30 May 2014.
+***Last version will be uploaded Thursday 30 May 2014.
 
