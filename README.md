@@ -3,5 +3,7 @@
 
 This is a simple Web Site in XTML 1.0 Transitional and CSS3.
 
+Web site have been validate with XHTML 1.0 Transitional and CSS3.
+
 Leonardo Barbiero alias BarbaN3rd<br />
 <leonardo.barbiero@gmail.com>
