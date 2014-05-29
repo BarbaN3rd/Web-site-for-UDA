@@ -12,6 +12,7 @@
 a {
 	text-decoration: none;
 	color: inherit;
+	outline: none;
 }
 
 body {
@@ -155,8 +156,14 @@ hr {
 	padding: 5px;
 	border: 1px solid #dedede;
 	margin: 10px;
+	vertical-align: text-top;
 }
 
 .img-post:hover {
 	border: 1px solid #5b5b5b;
+}
+
+.mail {
+	font-size: 10pt;
+	font-family: monospace
 }
